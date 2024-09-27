@@ -1,0 +1,31 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.option {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.justification {
+  margin-top: 20px;
+}
+
+.result {
+  text-align: center;
+}
